@@ -1,6 +1,6 @@
-mod people;
-
+pub mod user;
+use user::search_zip::search;
 fn main() {
-    println!("Hello, world!");
-    let user = people::User{}
+    let addr = search("12289456");
+    println!("{}", addr.data());
 }
