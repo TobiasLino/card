@@ -1,11 +1,10 @@
-pub mod address;
-pub mod login;
+use serde::{Serialize, Deserialize};
 
-use address::Address;
-use login::Login;
+use crate::address::Address;
+//use crate::login::Login;
 
 // TODO: User precisa de um histórico
-
+#[derive(Serialize, Deserialize)]
 pub struct User {
     pub name: String,
     pub phone: String,
@@ -20,7 +19,12 @@ pub struct User {
 
 impl User {
     pub fn data(self) -> String {
-        format!("{}\n\t{}", self.username.to_uppercase(), self.passwd.to_lowercase())
+        format!("{}\n\t{}\n\t{}\n\t{}\n\t{}\n", 
+            self.name.to_uppercase(),
+            self.phone,
+            self.email,
+            self.username,
+            self.address.data())
     }
 
     pub fn status(self) -> bool {
@@ -29,21 +33,21 @@ impl User {
 }
 
 // TODO: Implementar essa interface
-impl Login for User {
-    pub fn get_user_by_username(username: String) -> Option<User> {
+// impl Login for User {
+//     fn get_user_by_username(username: String) -> Option<User> {
 
-    }
+//     }
 
     
-    pub fn get_user_by_email(email: String) -> Option<User> {
+//     fn get_user_by_email(email: String) -> Option<User> {
 
-    }
+//     }
 
-    pub fn check_passwd(self, passwd: String) -> bool {
-        return self.passwd == passwd
-    }
+//     fn check_passwd(self, passwd: String) -> bool {
+//         return self.passwd == passwd
+//     }
 
-    pub fn connect(self) -> Result<bool> {
+//     fn connect(self) -> bool {
 
-    }
-}
+//     }
+// }

@@ -1,3 +1,7 @@
+use serde::{Serialize, Deserialize};
+
+
+#[derive(Serialize, Deserialize)]
 pub struct Address {
     pub cep: String,
     pub logradouro: String,
@@ -29,7 +33,7 @@ impl Address {
         search_zip::search(zip)
     }
 
-    pub fn data(&self) -> String {
+    pub fn data(self) -> String {
         format!("{}\n{}", self.cep, self.logradouro)
     }
 }
