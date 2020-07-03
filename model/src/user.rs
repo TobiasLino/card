@@ -1,12 +1,19 @@
 use serde::{Serialize, Deserialize};
+use diesel::{Queryable, Insertable};
+use diesel::prelude::*;
+use diesel::pg::PgConnection;
+use schema::users;
 
 use crate::address::Address;
 //use crate::login::Login;
 
 // TODO: User precisa de um histórico
-#[derive(Serialize, Deserialize)]
+#[table_name = "users"]
+#[derive(Serialize, Deserialize, Queryable, Insertable)]
 pub struct User {
+    pub id: Option<u32>
     pub name: String,
+    pub cpf: String,
     pub phone: String,
     pub address: Address,
     pub email: String,

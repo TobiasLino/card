@@ -1,6 +1,13 @@
+#[macro_use]
+extern crate diesel;
+
 pub mod user;
 pub mod address;
 pub mod login;
+pub mod main;
+
+
+
 // test com reqwest = rq
 
 // TODO: isolar os testes utilizando o mocktopus
