@@ -1,0 +1,8 @@
+c:\Users\TOBIASDASILVALINO\OneDrive - Fatec Centro Paula Souza\Documentos\GitHub\card\model\target\debug\deps\futures_task-6041e9261ff8751e.rmeta: C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\lib.rs C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\spawn.rs C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\future_obj.rs C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\noop_waker.rs
+
+c:\Users\TOBIASDASILVALINO\OneDrive - Fatec Centro Paula Souza\Documentos\GitHub\card\model\target\debug\deps\futures_task-6041e9261ff8751e.d: C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\lib.rs C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\spawn.rs C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\future_obj.rs C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\noop_waker.rs
+
+C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\lib.rs:
+C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\spawn.rs:
+C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\future_obj.rs:
+C:\Users\TOBIASDASILVALINO\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.5\src\noop_waker.rs:

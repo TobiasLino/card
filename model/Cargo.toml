@@ -1,0 +1,12 @@
+[package]
+name = "model"
+version = "0.1.0"
+authors = ["TobiasLino <tobias.lino@fatec.sp.gov.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2.21", features = ["full"] }
+error-chain = "0.12.2"
+reqwest = { version = "0.10", features = ["json"] }

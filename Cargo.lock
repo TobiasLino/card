@@ -62,9 +62,9 @@ checksum = "130aac562c0dd69c56b3b1cc8ffd2e17be31d0b6c25b61c96b76231aa23e39e1"
 name = "card"
 version = "0.1.0"
 dependencies = [
- "error-chain",
- "reqwest",
- "tokio",
+ "controller",
+ "model",
+ "view",
 ]
 
 [[package]]
@@ -78,6 +78,10 @@ name = "cfg-if"
 version = "0.1.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
+
+[[package]]
+name = "controller"
+version = "0.1.0"
 
 [[package]]
 name = "core-foundation"
@@ -470,6 +474,15 @@ checksum = "22dfdd1d51b2639a5abd17ed07005c3af05fb7a2a3b1a1d0d7af1000a520c1c7"
 dependencies = [
  "socket2",
  "winapi 0.3.8",
+]
+
+[[package]]
+name = "model"
+version = "0.1.0"
+dependencies = [
+ "error-chain",
+ "reqwest",
+ "tokio",
 ]
 
 [[package]]
@@ -978,6 +991,10 @@ name = "version_check"
 version = "0.9.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b5a972e5669d67ba988ce3dc826706fb0a8b01471c088cb0b6110b805cc36aed"
+
+[[package]]
+name = "view"
+version = "0.1.0"
 
 [[package]]
 name = "want"
